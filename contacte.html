@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contace</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="navegacion">
             <ul>
                 <li>
                     <a href="index.html">Home</a>
@@ -22,4 +23,32 @@
         </nav>
     </header>
 </body>
+<h1>Formulari de Contacte</h1>
+<form>
+        <fieldset>
+            <legend>Per fer la reserva introdueix les teves dades</legend>
+                <div>
+                    <div>
+                    <div>
+                        <label for="">Nom:</label>
+                        <input class="input-text" type="text" name="nomb" placeholder="El teu nom">
+                    </div>
+                    <div>
+                        <label for="">Numero de contacte:</label>
+                        <input class="input-text" type="tel" name="Teléfono" id="" placeholder="El teu numero">
+                    </div>
+                    <div>
+                        <label for="">Correu:</label>
+                        <input class="input-text" type="email" name="correu" id="" placeholder="El teu correu">
+                    </div>
+                    <div>
+                        <label for="">Misatge:</label>
+                        <textarea class="input-text" name="Misatge" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <input class="boton" type="submit" value="Enviar">
+                    </div>
+                </div>
+        </fieldset>
+    </form>
 </html>
